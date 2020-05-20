@@ -1,5 +1,6 @@
 A one-liner phrase describing this project or app
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c97a85953d4f450abd1846b9e3a0f05e)](https://app.codacy.com/gh/BuildForSDG/Team-148-CapitalFarm-Server?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-148-CapitalFarm-Server&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 ## About
