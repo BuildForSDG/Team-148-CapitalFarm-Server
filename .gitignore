@@ -6,3 +6,4 @@ composer.lock
 
 # php cs fixer cache file
 .php_cs.cache
+debug.log
