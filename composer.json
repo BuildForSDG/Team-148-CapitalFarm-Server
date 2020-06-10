@@ -1,23 +1,23 @@
 {
-  "name": "",
-  "description": "",
-  "require-dev": {
-    "phpunit/phpunit": "^9.1",
-    "friendsofphp/php-cs-fixer": "^2.0"
-  },
-  "require": {},
-  "scripts": {
-    "test": "phpunit",
-    "php-cs-fixer": "php-cs-fixer fix ./"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "src"
+    "name": "build-for-sdg-team-148/capital-farm-server",
+    "description": "The Capital Farm Server provides API access to Capital Farm Client (CFC) which is a portal for Food Producers, Farmers, Farm Equipment and Products Sellers or Leasers, Food Products Market Players, Land Owners, and Investors. The portal provides a central point where food producers can find all in one service and products to improve and increase production, expedite and grow their food production business.",
+    "require-dev": {
+        "phpunit/phpunit": "^9.1",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "require": {},
+    "scripts": {
+        "test": "phpunit",
+        "php-cs-fixer": "php-cs-fixer fix ./"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "tests"
+        }
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "App\\": "tests"
-    }
-  }
 }
