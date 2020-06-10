@@ -3,10 +3,37 @@
     "description": "The Capital Farm Server provides API access to Capital Farm Client (CFC) which is a portal for Food Producers, Farmers, Farm Equipment and Products Sellers or Leasers, Food Products Market Players, Land Owners, and Investors. The portal provides a central point where food producers can find all in one service and products to improve and increase production, expedite and grow their food production business.",
     "require-dev": {
         "phpunit/phpunit": "^9.1",
-        "friendsofphp/php-cs-fixer": "^2.0",
-        "ext-mbstring": "*"
+        "friendsofphp/php-cs-fixer": "^2.0"
     },
-    "require": {},
+    "require": {
+        "doctrine/instantiator": "^1.2.0",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*",
+        "myclabs/deep-copy": "^1.9.1",
+        "phar-io/manifest": "^1.0.3",
+        "phar-io/version": "^2.0.1",
+        "php": "^7.3",
+        "phpspec/prophecy": "^1.8.1",
+        "phpunit/php-code-coverage": "^8.0.1",
+        "phpunit/php-file-iterator": "^3.0",
+        "phpunit/php-invoker": "^3.0",
+        "phpunit/php-text-template": "^2.0",
+        "phpunit/php-timer": "^5.0",
+        "sebastian/code-unit": "^1.0.2",
+        "sebastian/comparator": "^4.0",
+        "sebastian/diff": "^4.0",
+        "sebastian/environment": "^5.0.1",
+        "sebastian/exporter": "^4.0",
+        "sebastian/global-state": "^4.0",
+        "sebastian/object-enumerator": "^4.0",
+        "sebastian/resource-operations": "^3.0",
+        "sebastian/type": "^2.1",
+        "sebastian/version": "^3.0"
+    },
     "scripts": {
         "test": "phpunit",
         "php-cs-fixer": "php-cs-fixer fix ./"
