@@ -1,0 +1,52 @@
+[2020-06-11 14:48:31] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(122): Illuminate\\Log\\LogManager->error('Directory name ...', Array)
+#4 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\src\\Exceptions\\Handler.php(40): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(RuntimeException))
+#5 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report(Object(RuntimeException))
+#6 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(RuntimeException))
+#7 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-06-11 14:48:31] laravel.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:48)
+[stacktrace]
+#0 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(48): RecursiveDirectoryIterator->__construct('', 4096)
+#1 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Finder.php(730): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Finder.php(614): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2020-06-11 14:51:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(122): Illuminate\\Log\\LogManager->error('Directory name ...', Array)
+#4 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\src\\Exceptions\\Handler.php(40): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(RuntimeException))
+#5 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): App\\Exceptions\\Handler->report(Object(RuntimeException))
+#6 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(RuntimeException))
+#7 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-06-11 14:51:30] laravel.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:48)
+[stacktrace]
+#0 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(48): RecursiveDirectoryIterator->__construct('', 4096)
+#1 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Finder.php(730): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\symfony\\finder\\Finder.php(614): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\wamp\\www\\ACL\\CapitalFarm\\Team-148-CapitalFarm-Server\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
