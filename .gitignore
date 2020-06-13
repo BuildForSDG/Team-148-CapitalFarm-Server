@@ -7,3 +7,6 @@ vendor
 # php cs fixer cache file
 .php_cs.cache
 debug.log
+
+# Environement configurations
+.env
