@@ -26,7 +26,8 @@
         "laravel/framework": "^7.0",
         "laravel/passport": "^9.0",
         "laravel/tinker": "^2.0",
-        "spatie/laravel-permission": "^3.11"
+        "spatie/laravel-permission": "^3.11",
+        "awt/apilogger": "@dev"
 
     },
     "scripts": {

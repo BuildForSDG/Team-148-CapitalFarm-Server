@@ -14,25 +14,34 @@ use Illuminate\Support\Facades\DB;
 
 class RegisterController extends Controller
 {
+
     public function register(RegisterRequest $request)
     {
         DB::transaction(function() use($request, &$user) {
-            //create a new user
-            $user = new User();
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->password = $request->password;
-            $user->status = UserStatus::PENDING;
-            $user->remember_token = Utilities::generateToken();
-            $user->save();
 
-            $user->profile()->create([]);
+            try{
+                
+                //create a new user
+                $user                 = new User();
+                $user->name           = $request->name;
+                $user->email          = $request->email;
+                $user->password       = $request->password;
+                $user->status         = UserStatus::PENDING;
+                $user->remember_token = Utilities::generateToken();
+                $user->save();
 
-            //assign them a role of 'User'
-            $user->assignRole('User');
+                $user->profile()->create([]);
 
-            //dispatch an event to send email to user to verify account
-            event(new NewUser($user));
+                //assign them a role of 'User'
+                $user->assignRole('User');
+
+                //dispatch an event to send email to user to verify account
+                event(new NewUser($user));
+            }
+            catch (\Exception $e) {
+
+                return $e->getMessage();
+            }
         });        
         return new UserResource($user);
     }
@@ -41,9 +50,9 @@ class RegisterController extends Controller
     {
         $user = User::where('remember_token', $token)->first();
         if($user) {
-            $user->remember_token = '';
+            $user->remember_token    = '';
             $user->email_verified_at = Carbon::now();
-            $user->status = UserStatus::ACTIVE;
+            $user->status            = UserStatus::ACTIVE;
             $user->save();
             return new UserResource($user);
         }
