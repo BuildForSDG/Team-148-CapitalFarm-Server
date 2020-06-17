@@ -112,7 +112,7 @@
 
 
             <div class="links">
-                <a class="button" href="https://capital-farm-client.herokuapp.com/">Visit the Capital Farm Client Site</a>
+                <a target="_blank" class="button" href="https://capital-farm.web.app">Visit the Capital Farm Client Site</a>
             </div>
             <center>
                 <p> By BuildForSDG Team 148 </p>

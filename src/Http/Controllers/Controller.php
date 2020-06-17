@@ -33,7 +33,12 @@ class Controller extends BaseController
             'token_type' => 'Bearer',
             'expires_at' => Carbon::parse(
                 $tokenResult->token->expires_at
-            )->toDateTimeString()
+            )->toDateTimeString(),
+            'id' => $user->id,
+            'username' => $user->email,
+            'firstName' => $user->name,
+            'lastName' => $user->name,
+            'role' => ''
         ]);
     }
 }
